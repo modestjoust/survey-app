@@ -1,3 +1,12 @@
+## Testing
+
+Install packages. `npm install`
+Run backend server with `node server.js`
+
+Scripts below the client (`npm start` or `yarn start`)
+
+...
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
