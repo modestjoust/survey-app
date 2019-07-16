@@ -1,0 +1,57 @@
+.Container {
+  height: 100vh;
+  padding: 60px 8%;
+  box-sizing: border-box;
+  overflow: scroll
+}
+
+.Question {
+  font-size: 1.4em;
+  display: block;
+  width: 100%;
+}
+
+.Survey_Card {
+  position: relative;
+  background: rgb(98, 96, 120);
+  box-shadow: 0px 0px 20px rgba(0,0,0,.5);
+  border-radius: 3px;
+  color: #e3e3e3;
+  padding: 26px 48px;
+  margin-bottom: 26px;
+}
+
+.Answer_Value {
+  padding-right: 32px;
+}
+
+.Responses {
+  margin-top: 8px;
+}
+
+.Response {
+  position: relative;
+  padding: 6px;
+}
+
+.Response_Count {
+  position: absolute;
+  right: 6px;
+  top: 6px;
+}
+
+.Responders {
+  font-size: .8em;
+  color: #ababab;
+  padding-top: 2px;
+  padding-left: 8px;
+}
+
+input[type="radio"] {
+  display:none;
+}
+
+.Selected {
+  font-weight: 700;
+  background: rgba(255,255,255,.25);
+}

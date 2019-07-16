@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+      "name": "aaa",
+      "id": 0,
+      "answers": [
+        "ans2",
+        "answe1"
+      ]
+    },
+    {
+      "name": "bbb",
+      "id": 1,
+      "answers": [
+        "ans2",
+        "answe3"
+      ]
+    }
+  ],
+  "questions": [],
+  "surveys": [
+    {
+      "question": "question",
+      "answers": [
+        {
+          "value": "ans1",
+          "responses": [],
+          "id": 0
+        },
+        {
+          "value": "ans2",
+          "responses": [
+            "aaa",
+            "bbb"
+          ],
+          "id": 1
+        }
+      ],
+      "id": 0
+    },
+    {
+      "question": "Another one",
+      "answers": [
+        {
+          "value": "answe1",
+          "responses": [
+            "aaa"
+          ],
+          "id": 0
+        },
+        {
+          "value": "answe2",
+          "responses": [],
+          "id": 1
+        },
+        {
+          "value": "answe3",
+          "responses": [
+            "bbb"
+          ],
+          "id": 2
+        }
+      ],
+      "id": 1
+    }
+  ]
+}

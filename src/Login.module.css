@@ -1,0 +1,83 @@
+.Form_Container {
+  height: 100vh;
+  padding: 60px 8%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Form {
+  position: relative;
+  background: rgb(98, 96, 120);
+  height: 50%;
+  box-shadow: 0px 0px 20px rgba(0,0,0,.5);
+  border-radius: 3px;
+  color: #e3e3e3;
+  padding: 26px 48px;
+}
+
+.Form label {
+  font-size: 1.4em;
+  display: block;
+  width: 100%;
+}
+
+.Name_Input {
+  position: absolute;
+  width: 75%;
+  margin: auto;
+  bottom: 61.8%;
+  text-align: center;
+  font-size: 16px;
+  color: #222;
+  padding: 5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  background: none;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 2px solid #e3e3e344;
+  color: #fff;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: background .21s ease-out, border-bottom .21s ease-out;
+}
+
+.Name_Input:focus {
+  outline: none;
+  border-bottom: 2px solid #e3e3e388;
+  background: #ffffff08;
+}
+
+.Submit_Button {
+  height: 40px;
+  width: 180px;
+  background: #09265a;
+  color: #e3e3e3;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 1em;
+  border-radius: 3px;
+  box-shadow: 0px 0px 6px rgba(0,0,0,.5);
+  border: none;
+  position: absolute;
+  bottom: 26px;
+  right: 48px;
+  cursor: pointer;
+  transition: box-shadow .21s ease-out, background .21s ease-in-out, color .21s ease-in-out;
+}
+
+.Submit_Button:focus {
+  outline: none;
+  box-shadow: 0 0 6px #fff8;
+}
+
+.Submit_Button:disabled {
+  background: none;
+  color: #e3e3e388;
+  box-shadow: none;
+  cursor: not-allowed;
+}
